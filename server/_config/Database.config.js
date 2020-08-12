@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = process.env.DB_DATABASE;
+const db = "mongodb+srv://andreiroman:76dJILSPoHHrBalc@andreiroman.ognrm.mongodb.net/Interview?retryWrites=true&w=majority";
 
 module.exports = {
     async connectDB() {
