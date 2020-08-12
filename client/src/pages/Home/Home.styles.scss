@@ -1,0 +1,14 @@
+.home-wrapper {
+  width: 100vw;
+  height: auto;
+  .inputs-wrapper {
+      margin: 5vh 0 0 5vw;
+      width: 30vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      input {
+          margin: 0 0 2.5vh 0;
+      }
+  }
+}
